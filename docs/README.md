@@ -1,30 +1,41 @@
-# student-projecto
-
 # CSV Analyzer
 A Python script for basic CSV data analysis and cleaning
 
 ## Overview
-This project contains `csv_analyzer.py`, a Python script designed to:
-- Load and read CSV files
+This tool analyzes and cleans CSV data using pandas.
 
-- Perform basic data analysis
-- Clean data by handling missing values
-- Save cleaned data to a new CSV file
+## Project Structure
+your-repo/
+├── src/               # Source code
+│   └── csv_analyzer.py # Main script
+├── tests/             # Test files (empty)
+├── docs/              # Documentation
+│   ├── README.md      # This file
+│   └── CHANGELOG.md   # Change history
+├── data/              # Sample data
+│   └── my_data.csv    # Sample CSV
+└── .gitignore         # Git ignore rules
 
-## Features
-- **Data Loading**: Safely loads CSV files with error handling
-- **Analysis**: Provides basic statistics and data overview
-- **Cleaning**: Handles missing values with mean/mode imputation
-- **Output**: Saves cleaned data to a new CSV file
-
-## Prerequisites
-- Python 3.x
-- Required packages:
-  - pandas
-  - numpy
+text
+Wrap
+Copy
 
 ## Installation
-
-
-
-Contact info: pablo.cuervo@alumnos.upm.es
+1. Clone the repo:
+   ```bash
+   git clone <repo-url>
+   cd your-repo
+Install dependencies (Windows):
+bash
+Wrap
+Copy
+pip install pandas numpy
+Run:
+bash
+Wrap
+Copy
+python src/csv_analyzer.py
+Usage
+Place your CSV in data/.
+Update file_path in src/csv_analyzer.py to ../data/your_file.csv.
+Run the script.
